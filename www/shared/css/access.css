@@ -1,0 +1,126 @@
+/* Scss Document */
+
+#sec1 {
+    background: #0c2137 url(../img/access/s1_bg.jpg) no-repeat top center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    color: #fff;
+    padding-bottom: 12%;
+}
+
+#sec1 .box {
+    position: relative;
+}
+
+#sec1 .box .ic,
+#sec1 .box .ifb,
+#sec1 .box .tel {
+    position: absolute;
+}
+
+#sec1 .box .ic a,
+#sec1 .box .ifb a,
+#sec1 .box .tel a {
+    display: block;
+}
+
+#sec1 .box .ic {
+    top: 27%;
+    width: 5%;
+    height: 13%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    left: 29%;
+}
+
+#sec1 .box .ifb {
+    top: 52%;
+    width: 5%;
+    height: 13%;
+    border-radius: 50%;
+    left: 29%;
+}
+
+#sec1 .box .tel {
+    top: 0;
+    right: 0;
+    width: 60%;
+    bottom: 16%;
+}
+
+#sec1 .box .tel a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#sec1 .menu-dl {
+    padding: 0 5% 10%;
+}
+
+#sec1 .menu-dl dl {
+    padding: 10px 0;
+    border-bottom: 1px dotted #653a38;
+}
+
+#sec1 .btn+.btn {
+    margin-top: 20px;
+}
+
+#sec1 .btn a,
+#sec1 .btn a span {
+    background: #212121;
+}
+
+#mmap {
+    margin-bottom: 20px;
+}
+
+#mmap iframe {
+    width: 100%;
+    height: 480px;
+}
+
+#sec2 {
+    padding: 15% 0;
+}
+
+#sec2 .box {
+    margin: 0 5%;
+    border: 1px solid #fff;
+    padding-top: 5vw;
+}
+
+#sec2 .txt {
+    padding: 4% 5% 8%;
+}
+
+#sec2 .map {
+    width: 90%;
+    margin: 0 auto 10%;
+}
+
+#sec2 .go_slide {
+    padding: 0 5%;
+}
+
+#sec2 ul.slick-dots {
+    padding-top: 15px;
+}
+
+#sec2 .slick-slider button.slick-arrow {
+    top: auto;
+    bottom: -2%;
+    width: 5vw;
+    height: 6vw;
+}
+
+#sec2 .slick-dots .slick-active button {
+    background: #fff;
+}
+
+#sec2 .slick-dots button {
+    background: #0c2137;
+}

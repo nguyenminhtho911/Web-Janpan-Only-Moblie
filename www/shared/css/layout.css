@@ -1,0 +1,468 @@
+/* Scss Document */
+
+
+/* Tablet */
+
+
+/* Mobile - Large */
+
+
+/* Mobile - Small */
+
+#index #sec1 {
+    position: relative;
+    background: url(../img/index/s1_bgT.png) no-repeat center top/100% auto, url(../img/index/s1_bgB.png) no-repeat center bottom/100% auto;
+}
+
+#index #sec1 .btn1 {
+    padding-right: 15%;
+}
+
+#index #sec1 .btn2 {
+    padding-left: 15%;
+}
+
+#index #sec2 {
+    background: url(../img/index/s2_bgT.jpg) no-repeat center top/100% auto #1b1b1d;
+    color: #fff;
+    padding-bottom: 28vw;
+}
+
+#index #sec2 .txt {
+    background: url(../img/index/s2_dc_txt.png) no-repeat center top 3vw /100% auto;
+}
+
+#index #sec3 {
+    color: #fff;
+    background: #0c2137;
+    position: relative;
+    padding-top: 16vw;
+}
+
+#index #sec3 .imgT {
+    top: -27vw;
+    position: absolute;
+    left: 0;
+}
+
+#index #sec3 .btn a {
+    background: #2c2c2e;
+}
+
+#index #sec3 .btn a span {
+    background: #2c2c2e;
+}
+
+#index #sec4 {
+    position: relative;
+}
+
+#index #sec4 h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#index #sec5 {
+    position: relative;
+}
+
+#index #sec5 h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+#index #sec5 .bg_parallax {
+    padding-top: 275px;
+}
+
+#index #sec6 #feed {
+    margin-bottom: 9vw;
+    padding: 0 18%;
+}
+
+#index #sec6 #feed .row {
+    background: #fff;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+#index #sec6 #feed .rss_item+.rss_item {
+    margin-top: 9vw;
+    padding: 0 6%;
+}
+
+#index #sec6 #feed dl .rss_img {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#index #sec6 #feed dl .rss_img span {
+    width: 100% !important;
+    height: 0 !important;
+    padding-top: 70%;
+}
+
+#index #sec6 #feed dl dd {
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#index #sec6 .s6_btn a.more {
+    height: 46px;
+    line-height: 46px;
+    width: auto;
+    display: inline-block;
+}
+
+#concept #sec1 {
+    background: url(../img/concept/s1_bgT.jpg) no-repeat center top/100% auto #2c2c2e;
+    color: #fff;
+}
+
+#concept #sec2 {
+    color: #fff;
+}
+
+#concept #sec3 {
+    /*====================*__Break__*====================*/
+}
+
+#concept #sec3 div[class*="set"] {
+    border: 4px double #fff;
+    padding: 5% 5% 15vw;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 3%;
+    position: relative;
+}
+
+#concept #sec3 div[class*="set"] .btn {
+    position: absolute;
+    bottom: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 5%;
+}
+
+#concept #sec3 div[class*="set"] .img {
+    margin-left: -10%;
+    margin-right: -11%;
+}
+
+#concept #sec3 .set1 {
+    margin-top: -11vw !important;
+}
+
+#concept #sec3 div.set2 .img,
+#concept #sec3 div.set4 .img {
+    margin-right: -10%;
+    margin-left: -11%;
+}
+
+
+/*====================*__concept__*====================*/
+
+#alacarte #sec1 {
+    background: url(../img/alacarte/s1_bgT.jpg) no-repeat center top/100% auto #2c2c2e;
+    color: #fff;
+}
+
+#alacarte #sec2 .box4 {
+    background: #262629;
+}
+
+#alacarte #sec2 .box4,
+#alacarte #sec2 .box5 {
+    color: #fff;
+}
+
+#alacarte #sec2 .box4 dl,
+#alacarte #sec2 .box5 dl {
+    margin-top: -13vw;
+}
+
+#alacarte #sec4 {
+    background: #fff;
+}
+
+#alacarte #sec5 {
+    background: #0c2137;
+    color: #fff;
+}
+
+#course #sec1 {
+    background: url(../img/course/s1_bg.jpg) no-repeat center top/100% auto;
+}
+
+#course #sec1 .txt {
+    margin: 0 5%;
+    border: 1px solid #fff;
+    padding: 10% 5%;
+}
+
+#course #sec2 {
+    color: #fff;
+}
+
+#course #sec2 .row {
+    position: relative;
+}
+
+#course #sec2 .row .box {
+    position: relative;
+    z-index: 2;
+}
+
+#course #sec2 .row::before {
+    content: '';
+    border-left: 2px dotted #b96767;
+    border-radius: 50%;
+    height: 110vw;
+    width: 30vw;
+    position: absolute;
+    top: 20vw;
+    left: 3vw;
+}
+
+#course #sec2 .row-2::before {
+    width: 67vw;
+}
+
+#course #sec2 .row-2::before,
+#course #sec2 .row-4::before,
+#course #sec2 .row-6::before {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    left: auto;
+    right: 3vw;
+}
+
+#course #sec2 .row-7::before {
+    display: none;
+}
+
+#course #sec4 {
+    color: #fff;
+}
+
+#course #sec4 .row {
+    margin-bottom: 112px;
+    border: 1px solid #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 5%;
+}
+
+#course #sec4 .row:last-child {
+    margin-bottom: 0;
+}
+
+#course #sec4 h3 {
+    display: block;
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+    padding: 6vw 0 12vw;
+    background: #2c2c2e;
+}
+
+#course #sec4 h3 span {
+    font-size: 17px;
+    line-height: 50px;
+    position: relative;
+    border-bottom: 4px double #fff;
+    letter-spacing: 0.2em;
+    background: #2c2c2e;
+    padding: 10px 11px 12px;
+}
+
+#course #sec4 h3 span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 49px;
+    height: 1px;
+    background: #fff;
+}
+
+#course #sec5 {
+    padding-top: 43vw;
+    position: relative;
+}
+
+#course #sec5 .img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#course #sec5 .box {
+    border: 1px solid #fff;
+    margin: 0 3% 9vw;
+}
+
+#course #sec5 .box2 {
+    background: #3e3e42;
+    color: #fff;
+    margin: 0 3%;
+    padding: 10% 5%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#course #sec5 .box2::before {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    content: '';
+    border: 1px solid #fff;
+}
+
+#course #sec5 .box2 h3 {
+    text-align: center;
+}
+
+#course #sec5 .box2 h3 span {
+    display: inline-block;
+    padding: 0 20px;
+    border-bottom: 1px solid #b96767;
+}
+
+#course #sec5 .box2 .btn {
+    position: absolute;
+    bottom: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    left: 0;
+    right: 0;
+    padding: 0 8%;
+}
+
+#course #sec5 .box2 .btn .button span {
+    font-size: 15px;
+}
+
+#course #sec5 .box2 .info dl {
+    position: relative;
+    padding: 10px 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #545457;
+}
+
+#course #sec5 .box2 .info dl dd {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+/*====================*__Break__*====================*/
+
+#takeout #sec1 {
+    color: #fff;
+    background: url(../img/takeout/s1_bg.jpg) no-repeat center top/cover;
+}
+
+#takeout #sec2 {
+    background: url(../img/takeout/s2_bgT.png) no-repeat center top/100% auto;
+}
+
+#takeout #sec4 {
+    position: relative;
+    padding-top: 26vw;
+}
+
+#takeout #sec4 .img {
+    position: absolute;
+    left: 0;
+    top: 6vw;
+}
+
+#takeout #sec4 .box {
+    border: 1px solid #fff;
+    margin: 0 3% 9vw;
+    padding-top: 43vw;
+}
+
+#takeout #sec4 .box h2 {
+    position: absolute;
+    width: 12%;
+    top: 0;
+    right: 12%;
+}
+
+#takeout #sec4 .box2 {
+    background: #3e3e42;
+    color: #fff;
+    margin: 0 3%;
+    padding: 10% 5%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#takeout #sec4 .box2::before {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    content: '';
+    border: 1px solid #fff;
+}
+
+#takeout #sec4 .box2 h3 {
+    text-align: center;
+}
+
+#takeout #sec4 .box2 h3 span {
+    display: inline-block;
+    padding: 0 20px;
+    border-bottom: 1px solid #b96767;
+}
+
+#takeout #sec4 .box2 .btn {
+    position: absolute;
+    bottom: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    left: 0;
+    right: 0;
+    padding: 0 8%;
+}
+
+#takeout #sec4 .box2 .btn .button span {
+    font-size: 15px;
+}
+
+#takeout #sec4 .box2 .info dl {
+    position: relative;
+    padding: 10px 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #545457;
+}
+
+#takeout #sec4 .box2 .info dl dd {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+
+/*# sourceMappingURL=layout.css.map */

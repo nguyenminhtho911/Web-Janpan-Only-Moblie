@@ -1,0 +1,193 @@
+/* Scss Document */
+
+@charset "UTF-8";
+@mixin pos_tl($top, $left) {
+    top: $top;
+    left: $left;
+    position: absolute;
+}
+
+@mixin pos_bl($bottom, $left) {
+    bottom: $bottom;
+    left: $left;
+    position: absolute;
+}
+
+@mixin pos_tr($top, $right) {
+    top: $top;
+    right: $right;
+    position: absolute;
+}
+
+@mixin pos_br($bottom, $right) {
+    bottom: $bottom;
+    right: $right;
+    position: absolute;
+}
+
+@mixin bo_ra($w) {
+    border-radius: $w;
+    -moz-border-radius: $w;
+    -webkit-border-radius: $w;
+}
+
+@mixin shadow($w) {
+    box-shadow: $w;
+    -moz-box-shadow: $w;
+    -webkit-box-shadow: $w;
+}
+
+@mixin flex() {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+}
+
+@mixin flex_num($num) {
+    -webkit-flex: $num;
+    /* Safari 6.1+ */
+    -ms-flex: $num;
+    /* IE 10 */
+    flex: $num;
+}
+
+@mixin flex_column($num) {
+    -webkit-column-count: $num;
+    -moz-column-count: $num;
+    column-count: $num;
+}
+
+@mixin break_inside() {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+//-----------------------
+// bg_key
+@mixin key-slide($num, $page) {
+    @for $i from 1 through $num {
+        li:nth-child(#{$i}) {
+            background-image: url('../img/#{$page}/key_img#{$i}.jpg');
+        }
+    }
+}
+
+//align
+@mixin lateX {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+@mixin lateY {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+@mixin lateXY() {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+@mixin full {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
+}
+
+@mixin hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+@mixin show {
+    opacity: 1;
+    visibility: visible;
+}
+
+@mixin fixed {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    &.fixed {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+// fix txt-latin on firefox
+@mixin txt-latin-moz() {
+    @-moz-document url-prefix() {
+        .txt-vertical .txt-latin {
+            display: inline-block;
+            transform: rotate(180deg);
+        }
+    }
+}
+
+@mixin clearfix() {
+    zoom: 1;
+    &:after {
+        content: ".";
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+}
+
+@mixin paddingIE() {
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        @content;
+    }
+    @supports (-ms-accelerator:true) {
+        @content;
+    }
+}
+
+// brake-point
+$bp: 1080px;
+
+/* Tablet */
+
+$tb: 768px;
+
+/* Mobile - Large */
+
+$sp: 640px;
+
+/* Mobile - Small */
+
+// media
+@mixin media($w) {
+    @media screen and (max-width: $w + px) {
+        @content;
+    }
+}
+
+@mixin bp {
+    @media screen and (max-width: $bp) {
+        @content;
+    }
+}
+
+@mixin tb {
+    @media only screen and (max-width: $tb) {
+        @content;
+    }
+}
+
+@mixin sp {
+    @media only screen and (max-width: $sp) {
+        @content;
+    }
+}
